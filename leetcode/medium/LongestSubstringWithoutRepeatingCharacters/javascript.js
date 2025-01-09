@@ -13,8 +13,8 @@ var lengthOfLongestSubstring = function(s) {
           if (subStringLength > longestLength) {
               longestLength = subStringLength
           }
+          i -= subStringLength
           subStringLength = 0
-          i = map.get(split[i])
           map.clear()
           continue
       }
