@@ -3,8 +3,6 @@
  * @return {number[]}
  */
 var plusOne = function(digits) {
-  // const stringResult = `${(Number(digits.join('')) + 1)}`.split('')
-  // return stringResult.map(num => Number(num))
 
   for (let i = digits.length - 1; i >= 0; i--) {
       if (digits[i] !== 9) {
