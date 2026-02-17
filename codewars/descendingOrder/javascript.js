@@ -3,3 +3,6 @@ function descendingOrder(n){
 }
 
 // too easy
+
+// looking at others, I could have done + to force a number instead of Number()
+// I could have just used reverse instead of sort.
